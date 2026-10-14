@@ -1,0 +1,78 @@
+{
+  "SARS-Cov2": {
+    "samples": {
+      "BA.1": {
+        "R1": "data/SARS-Cov2/ERR7645572_1.BA.1.fastq.gz",
+        "R2": "data/SARS-Cov2/ERR7645572_2.BA.1.fastq.gz"
+      },
+      "BA.2.5": {
+        "R1": "data/SARS-Cov2/ERR9236727_1.BA.2.5.fastq.gz",
+        "R2": "data/SARS-Cov2/ERR9236727_2.BA.2.5.fastq.gz"
+      },
+      "BA.2": {
+        "R1": "data/SARS-Cov2/ERR9236855_1.BA.2.fastq.gz",
+        "R2": "data/SARS-Cov2/ERR9236855_2.BA.2.fastq.gz"
+      },
+      "B.1.617.2": {
+        "R1": "data/SARS-Cov2/ERR13149562_1.B.1.617.2.fastq.gz",
+        "R2": "data/SARS-Cov2/ERR13149562_2.B.1.617.2.fastq.gz"
+      },
+      "AY.2": {
+        "R1": "data/SARS-Cov2/SRR14854062_1.AY.2.fastq.gz",
+        "R2": "data/SARS-Cov2/SRR14854062_2.AY.2.fastq.gz"
+      },
+      "P.1": {
+        "R1": "data/SARS-Cov2/ERR10012445_1.P.1.fastq.gz",
+        "R2": "data/SARS-Cov2/ERR10012445_2.P.1.fastq.gz"
+      },
+      "B.1.351": {
+        "R1": "data/SARS-Cov2/ERR10159311_1.B.1.351.fastq.gz",
+        "R2": "data/SARS-Cov2/ERR10159311_2.B.1.351.fastq.gz"
+      },
+      "B.1.526": {
+        "R1": "data/SARS-Cov2/ERR10741726_1.B.1.526.fastq.gz",
+        "R2": "data/SARS-Cov2/ERR10741726_2.B.1.526.fastq.gz"
+      }
+    }
+  },
+  "mosquito": {
+    "samples": {
+      "Ochlerotatus_procax": {
+        "R1": "data/mosquito_cox1/[INSERT_ENA_RUN_ID_WHEN_AVAILABLE]_R1.fastq.gz",
+        "R2": "data/mosquito_cox1/[INSERT_ENA_RUN_ID_WHEN_AVAILABLE]_R2.fastq.gz"
+      },
+      "Ochlerotatus_multiplex": {
+        "R1": "data/mosquito_cox1/[INSERT_ENA_RUN_ID_WHEN_AVAILABLE]_R1.fastq.gz",
+        "R2": "data/mosquito_cox1/[INSERT_ENA_RUN_ID_WHEN_AVAILABLE]_R2.fastq.gz"
+      },
+      "Culex_sitiens": {
+        "R1": "data/mosquito_cox1/[INSERT_ENA_RUN_ID_WHEN_AVAILABLE]_R1.fastq.gz",
+        "R2": "data/mosquito_cox1/[INSERT_ENA_RUN_ID_WHEN_AVAILABLE]_R2.fastq.gz"
+      },
+      "Culex_annulirostris": {
+        "R1": "data/mosquito_cox1/[INSERT_ENA_RUN_ID_WHEN_AVAILABLE]_R1.fastq.gz",
+        "R2": "data/mosquito_cox1/[INSERT_ENA_RUN_ID_WHEN_AVAILABLE]_R2.fastq.gz"
+      },
+      "Aedes_notoscriptus": {
+        "R1": "data/mosquito_cox1/[INSERT_ENA_RUN_ID_WHEN_AVAILABLE]_R1.fastq.gz",
+        "R2": "data/mosquito_cox1/[INSERT_ENA_RUN_ID_WHEN_AVAILABLE]_R2.fastq.gz"
+      },
+      "Coquillettidia_linealis": {
+        "R1": "data/mosquito_cox1/[INSERT_ENA_RUN_ID_WHEN_AVAILABLE]_R1.fastq.gz",
+        "R2": "data/mosquito_cox1/[INSERT_ENA_RUN_ID_WHEN_AVAILABLE]_R2.fastq.gz"
+      },
+      "Coquillettidia_xanthogaster": {
+        "R1": "data/mosquito_cox1/[INSERT_ENA_RUN_ID_WHEN_AVAILABLE]_R1.fastq.gz",
+        "R2": "data/mosquito_cox1/[INSERT_ENA_RUN_ID_WHEN_AVAILABLE]_R2.fastq.gz"
+      },
+      "Anopheles_annulipes": {
+        "R1": "data/mosquito_cox1/[INSERT_ENA_RUN_ID_WHEN_AVAILABLE]_R1.fastq.gz",
+        "R2": "data/mosquito_cox1/[INSERT_ENA_RUN_ID_WHEN_AVAILABLE]_R2.fastq.gz"
+      },
+      "Mansonia_uniformis": {
+        "R1": "data/mosquito_cox1/[INSERT_ENA_RUN_ID_WHEN_AVAILABLE]_R1.fastq.gz",
+        "R2": "data/mosquito_cox1/[INSERT_ENA_RUN_ID_WHEN_AVAILABLE]_R2.fastq.gz"
+      }
+    }
+  }
+}
