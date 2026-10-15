@@ -43,13 +43,14 @@ def mash_tree_rows(matrix1, matrix2, labels1, labels2, titles=None):
     # Use symlog scale to spread out values near 0 for better visibility
     axs[0].set_xscale('symlog', linthresh=0.01)
     axs[1].set_xscale('symlog', linthresh=0.01)
-    axs[0].set_xlim(0.5, 0)
     # Set custom tick labels in normal decimal notation instead of scientific
-    tick_positions = [0, 0.001, 0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5]
-    tick_labels = ['0', '0.001', '0.01', '0.05', '0.1', '0.2', '0.3', '0.4', '0.5']
+    tick_positions = [0, 0.001, 0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.8, 1]
+    tick_labels = [f'{tick:g}' for tick in tick_positions]
     for ax in axs:
         ax.set_xticks(tick_positions)
         ax.set_xticklabels(tick_labels)
+    # Apply shared limits after ticks, which can otherwise expand the view.
+    axs[0].set_xlim(1, 0)
     if titles is not None:
         axs[0].set_title(titles[0], fontsize=12, weight="semibold")
         axs[1].set_title(titles[1], fontsize=12, weight="semibold")
