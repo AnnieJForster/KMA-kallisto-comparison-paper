@@ -1,14 +1,21 @@
 # KMA–kallisto algorithm comparison
 
-Code for *Differential sensitivity of k-mer based identification tools using closely
-related database sequences affects relative abundance estimation*, by Annie J.
-Forster, Michael Payne, Rebecca Rockett, Cameron Webb, and Tanya Golubchik.
+Code for:
+>*Differential sensitivity of k-mer based identification tools using closely
+related database sequences affects relative abundance estimation*\
+by Annie J.
+>Forster, Michael Payne, Rebecca Rockett, Cameron Webb, and Tanya Golubchik\
+(available as a preprint [here](LINK)).
 
 This repository compares algorithm performance for read identification and
 relative abundance estimation with KMA and kallisto. It uses synthetic sequence
 simulations and mosquito COX1 and SARS-CoV-2 sequence datasets.
 
+Associated data can be downloaded from Zenodo [here](LINK) (10.5281/zenodo.23328846).
+
 ## Reproduce the manuscript figures
+
+To set up, download associated data from Zenodo in a folder named `data/`.
 
 Use Python 3.10 or newer. From the repository root:
 

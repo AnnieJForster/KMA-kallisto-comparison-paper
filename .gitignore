@@ -12,3 +12,4 @@ data/real_data/*
 docs/
 notebooks/
 requirements-notebooks.txt
+/data_to_zip
