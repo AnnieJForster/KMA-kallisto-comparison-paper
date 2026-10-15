@@ -15,14 +15,18 @@ Associated data can be downloaded from Zenodo [here](LINK) (10.5281/zenodo.23328
 
 ## Reproduce the manuscript figures
 
-To set up, download associated data from Zenodo in a folder named `data/`.
-
-Use Python 3.10 or newer. From the repository root:
+To set up, clone this repo and download associated data from Zenodo, and unzip creating a `data/` folder:
 
 ```sh
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
+unzip data.zip
+```
+Create a conda environment:
+```sh
+conda create -f environment.yaml
+```
+Activate and generate the figures:
+```sh
+conda activate kma_kallisto_test
 python -m analysis.simulations.figures
 python -m analysis.real_data.figures
 ```
