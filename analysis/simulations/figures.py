@@ -240,7 +240,7 @@ def main(show=False):
 
     ax.set_xlabel("Expected proportion of component 1", fontsize=12)
 
-    ax.set_ylabel("Estimate fold-bias\nto component 2", fontsize=12, rotation=0, labelpad=10, ha="right", va="center")
+    ax.set_ylabel("Estimate fold-bias\ntoward component 1", fontsize=12, rotation=0, labelpad=10, ha="right", va="center")
     fig.savefig(FIGURES / "figure_5.pdf", bbox_inches="tight")
     if show:
         plt.show()
