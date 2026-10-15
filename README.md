@@ -11,7 +11,7 @@ This repository compares algorithm performance for read identification and
 relative abundance estimation with KMA and kallisto. It uses synthetic sequence
 simulations and mosquito COX1 and SARS-CoV-2 sequence datasets.
 
-Associated data can be downloaded from Zenodo [here](LINK) (10.5281/zenodo.23328846).
+Associated data can be downloaded from Zenodo [here](https://zenodo.org/records/23328846) (10.5281/zenodo.23328846).
 
 ## Reproduce the manuscript figures
 
